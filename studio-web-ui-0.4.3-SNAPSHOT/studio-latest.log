@@ -1,0 +1,154 @@
+2022-05-04 10:17:45,846 [INFO ] [studio.metadata.DatabaseMetadataService] [DatabaseMetadataService.java:56]: Reading official metadata in C:\Users\Cyril\.studio\db\official.json
+2022-05-04 10:17:46,208 [INFO ] [studio.metadata.DatabaseMetadataService] [DatabaseMetadataService.java:77]: Reading unofficial database in C:\Users\Cyril\.studio\db\unofficial.json
+2022-05-04 10:17:46,427 [INFO ] [studio.webui.service.StoryTellerService] [StoryTellerService.java:56]: Setting up story teller driver
+2022-05-04 10:17:46,431 [DEBUG] [studio.driver.raw.RawStoryTellerAsyncDriver] [RawStoryTellerAsyncDriver.java:65]: Registering hotplug listener
+2022-05-04 10:17:46,437 [INFO ] [studio.driver.LibUsbDetectionHelper] [LibUsbDetectionHelper.java:58]: Initializing libusb...
+2022-05-04 10:17:46,495 [INFO ] [studio.driver.LibUsbDetectionHelper] [LibUsbDetectionHelper.java:85]: Hotplug is NOT supported. Scheduling task to actively poll USB device...
+2022-05-04 10:17:46,495 [DEBUG] [studio.driver.LibUsbAsyncEventsWorker] [LibUsbAsyncEventsWorker.java:32]: Starting worker thread to handle libusb async events...
+2022-05-04 10:17:46,503 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:70]: Registering hotplug listener
+2022-05-04 10:17:46,505 [INFO ] [studio.driver.LibUsbDetectionHelper] [LibUsbDetectionHelper.java:58]: Initializing libusb...
+2022-05-04 10:17:46,506 [INFO ] [studio.driver.LibUsbDetectionHelper] [LibUsbDetectionHelper.java:85]: Hotplug is NOT supported. Scheduling task to actively poll USB device...
+2022-05-04 10:17:46,508 [DEBUG] [studio.driver.LibUsbAsyncEventsWorker] [LibUsbAsyncEventsWorker.java:32]: Starting worker thread to handle libusb async events...
+2022-05-04 10:17:46,675 [INFO ] [studio.driver.LibUsbActivePollingWorker] [LibUsbActivePollingWorker.java:66]: Active polling found a new device. Firing event.
+2022-05-04 10:17:46,683 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:74]: Waiting for device partition...
+2022-05-04 10:17:47,688 [TRACE] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:79]: Looking for .md in C:\
+2022-05-04 10:17:47,691 [TRACE] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:79]: Looking for .md in E:\
+2022-05-04 10:17:47,715 [TRACE] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:79]: Looking for .md in F:\
+2022-05-04 10:17:47,717 [INFO ] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:82]: FS device partition located: F:\
+2022-05-04 10:17:47,719 [INFO ] [studio.webui.service.StoryTellerService] [StoryTellerService.java:97]: Device 2.x plugged
+2022-05-04 10:17:47,724 [TRACE] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:121]: Reading device infos from file: F:\.md
+2022-05-04 10:17:47,727 [TRACE] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:126]: Device metadata format version: 3
+2022-05-04 10:17:47,728 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:137]: Firmware version: 2.22
+2022-05-04 10:17:47,729 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:144]: Serial Number: 9027059473975570
+2022-05-04 10:17:47,730 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:155]: UUID: f4705f8c5fe2f25e3e58aff5e1bee97e41a1fe9f4172b1faa60d8f330554e2e3d251e7e7441d466a2dc440e2ccb6edd02f1fa7a06c52b5174c33083dc43bad1c7f6616c7761bbb490eeb401a589dd1af873bec43510f81769ed2879d84637660fd336d92b8a577b9c6c1f73e462175b589e854faf74d1cb869708f396aa87a7e5c75e121126e43ba4131a0de3bde65b8b16f6a0f8667b64dd93c2c3c5fd9ba1f56b109c484098e79cbe53300c5c44a8f14710b7678670b0d9045e18dde1d61c2a57ce8f1cadb010807f0694d9745178428e166f50db23b66a0bfa9653fbfe964e59de10b80dd64a5af7f8bb2526e8bc6650c6b8a8c188bc4bbbde8b8b4bdd329
+2022-05-04 10:17:47,765 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:166]: SD card used : 21.76% (3.14 GB / 14.41 GB)
+2022-05-04 10:17:48,587 [INFO ] [studio.webui.MainVerticle] [MainVerticle.java:105]: Opening URL in default browser...
+2022-05-04 10:17:48,642 [WARN ] [io.vertx.core.impl.BlockedThreadChecker] [:]: Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 2816 ms, time limit is 2000 ms
+2022-05-04 10:17:49,053 [INFO ] [io.vertx.core.impl.launcher.commands.VertxIsolatedDeployer] [:]: Succeeded in deploying verticle
+2022-05-04 10:17:50,694 [TRACE] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:121]: Reading device infos from file: F:\.md
+2022-05-04 10:17:50,698 [TRACE] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:126]: Device metadata format version: 3
+2022-05-04 10:17:50,700 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:137]: Firmware version: 2.22
+2022-05-04 10:17:50,702 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:144]: Serial Number: 9027059473975570
+2022-05-04 10:17:50,703 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:155]: UUID: f4705f8c5fe2f25e3e58aff5e1bee97e41a1fe9f4172b1faa60d8f330554e2e3d251e7e7441d466a2dc440e2ccb6edd02f1fa7a06c52b5174c33083dc43bad1c7f6616c7761bbb490eeb401a589dd1af873bec43510f81769ed2879d84637660fd336d92b8a577b9c6c1f73e462175b589e854faf74d1cb869708f396aa87a7e5c75e121126e43ba4131a0de3bde65b8b16f6a0f8667b64dd93c2c3c5fd9ba1f56b109c484098e79cbe53300c5c44a8f14710b7678670b0d9045e18dde1d61c2a57ce8f1cadb010807f0694d9745178428e166f50db23b66a0bfa9653fbfe964e59de10b80dd64a5af7f8bb2526e8bc6650c6b8a8c188bc4bbbde8b8b4bdd329
+2022-05-04 10:17:50,710 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:166]: SD card used : 21.76% (3.14 GB / 14.41 GB)
+2022-05-04 10:17:50,757 [INFO ] [studio.webui.api.EvergreenController] [EvergreenController.java:30]: Current version infos: {"version":"0.4.3-SNAPSHOT","timestamp":"2022-05-04T07:51:44Z"}
+2022-05-04 10:17:50,970 [TRACE] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:220]: Reading packs index from file: F:\.pi
+2022-05-04 10:17:50,978 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:182]: Number of packs in index: 35
+2022-05-04 10:17:50,980 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: c4139d59-872a-4d15-8cf1-76d34cdf38c6
+2022-05-04 10:17:50,989 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 2
+2022-05-04 10:17:51,040 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `03933ba4-4fbf-475f-9ecc-35efb4d11dc9`
+2022-05-04 10:17:51,076 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `1076a5fd-2111-4cbc-ad9f-efc18d860336`
+2022-05-04 10:17:51,085 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `1d972021-7904-4bc0-bf67-68929547344d.converted_1646224810165`
+2022-05-04 10:17:51,152 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `22137b29-8646-4335-8069-4a4c9a2d7e89.converted_1651505433804`
+2022-05-04 10:17:51,199 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `22edd8d2-a599-4eec-aeae-3d6a40be0fa7.converted_1651504702020`
+2022-05-04 10:17:51,217 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `2675f48b-9038-4be1-8d9b-146d83331cf9.converted_1651505441610`
+2022-05-04 10:17:51,228 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `29264adf-5a9f-451a-b1ec-2ae21bba473c.converted_1651505021027`
+2022-05-04 10:17:51,234 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `2c274062-5f1f-456e-83a7-25c335943fa3.converted_1651505250059`
+2022-05-04 10:17:51,242 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `2e594270-f779-47d4-904a-5e1fbe6c9a62.converted_1646668081828`
+2022-05-04 10:17:51,250 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `2eec0b38-2cbd-4812-9621-8b157918bfa4.converted_1651502313893.zip`
+2022-05-04 10:17:51,568 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `2eec0b38-2cbd-4812-9621-8b157918bfa4.converted_1651505410674`
+2022-05-04 10:17:51,665 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `330c6233-96e1-479f-8719-96041e962c9b.converted_1646668122660`
+2022-05-04 10:17:51,688 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 4563d17e-fae9-4093-9306-13a14267b26a
+2022-05-04 10:17:51,688 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `358f544c-59d6-493e-8c6e-1fe9bb5ef825.converted_1651504620011`
+2022-05-04 10:17:51,699 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:51,706 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `37233bc2-8d25-454e-9ff2-a5f21c4497e1.converted_1651505043393`
+2022-05-04 10:17:51,728 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `3ecb67bb-a2c8-4ff0-b274-4f90a9236863.converted_1646841846866`
+2022-05-04 10:17:51,741 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `589934ab-770c-4d29-b0d3-974501f8aeab.converted_1651596083900`
+2022-05-04 10:17:51,749 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `59a710e9-2f7a-4d0c-ab2d-47e8dd2e29b7.converted_1651505253290`
+2022-05-04 10:17:51,767 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `5a4b1719-4355-46b0-b08f-6f86761ddded.converted_1651505052047`
+2022-05-04 10:17:51,776 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `6450ff5b-4cb1-4748-a847-5faba29be557`
+2022-05-04 10:17:51,785 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `65f473d0-4d7f-4679-a25a-84cb0598a73a.converted_1647079470619`
+2022-05-04 10:17:51,823 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `75ba4216-fea0-4c79-a8ff-34c4209878fe`
+2022-05-04 10:17:51,845 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `77202e32-ffeb-4408-b6c7-8e8069b6a713.converted_1647079212727`
+2022-05-04 10:17:51,854 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `896a6787-eba8-4a21-86d5-80cdca786bb0.converted_1651504888386`
+2022-05-04 10:17:51,865 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `8de8dc85-88ae-4115-8e5c-b42bd9219e8d.converted_1648972258509`
+2022-05-04 10:17:51,876 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `9c836c24-34c4-4cc1-b9e6-d8646c8d9cf1`
+2022-05-04 10:17:51,892 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `9fd6e3f6-9dd5-4ef4-bb96-100145753ae0.converted_1647079627692`
+2022-05-04 10:17:51,914 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `a0e97c6b-46ab-4a2a-ac0e-9a3ea5106764.converted_1651431960002`
+2022-05-04 10:17:51,920 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `a1bd13a1-6694-4435-8e5d-40d655c57136`
+2022-05-04 10:17:51,923 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: cd7e7168-5c39-4cf4-8a13-843ee3d8e79d
+2022-05-04 10:17:51,944 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:51,950 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `a64e886e-1013-4955-bb2c-775a9c1732e4.converted_1651505106148`
+2022-05-04 10:17:51,966 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `ab80912f-aa55-4d83-970a-d87844db0ed2.converted_1646408575458`
+2022-05-04 10:17:51,996 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `b41b89e0-8faa-4dab-9ed0-7cec76a3a9f0.converted_1651595896612`
+2022-05-04 10:17:52,026 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `be8949f6-0d85-4f54-8284-19a1bdaed36a`
+2022-05-04 10:17:52,033 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `c0785e02-81e9-4746-9b73-8c9979ba2db1.converted_1646483084209`
+2022-05-04 10:17:52,047 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `c27e43ce-6161-4659-bc54-7099dfc62d45.converted_1649246117525`
+2022-05-04 10:17:52,098 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `c8b39950-de17-4eaa-8e85-2a07fc468267.converted_1651505459021`
+2022-05-04 10:17:52,113 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `Contes des animaux du monde 2eec0b38-2cbd-4812-9621-8b157918bfa4.pack`
+2022-05-04 10:17:52,126 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `d24e9ff7-80bf-4774-9bf2-01208a0be301.converted_1651596169661`
+2022-05-04 10:17:52,131 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `d794c0d2-6ae1-457f-b551-3aec993c5f68.converted_1646483888103`
+2022-05-04 10:17:52,144 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `e07c3196-e26a-41dc-93e6-a6b45cf5cfbb.converted_1651504914593`
+2022-05-04 10:17:52,150 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `e1b35776-064d-4201-80c9-0bf6dec391d0`
+2022-05-04 10:17:52,169 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `e4bdd5a7-c06f-4b29-b4bf-06198c6a60a6.converted_1646227338398`
+2022-05-04 10:17:52,211 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 8ee95156-7032-4014-b39e-c1c65369dd70
+2022-05-04 10:17:52,231 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:52,280 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `e8cee40d-bdfb-4fb6-9275-c17b6867d1c7.converted_1651504929872`
+2022-05-04 10:17:52,344 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `ea0628d5-3a19-4df9-8622-65ec62d5fb24.converted_1651504785181`
+2022-05-04 10:17:52,415 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `f4985a36-4294-476c-b84e-7c9894ccbbfe.converted_1651504888256`
+2022-05-04 10:17:52,447 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `f57d70d2-d397-45e8-a0a8-3907924f89fe.converted_1651504447045`
+2022-05-04 10:17:52,468 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `fa3c420c-6b97-44fd-9d43-9e8b4566ae40.converted_1651596130167`
+2022-05-04 10:17:52,514 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 955b9427-cd09-40f1-b729-c3c6f6399fee
+2022-05-04 10:17:52,516 [INFO ] [studio.webui.service.LibraryService] [LibraryService.java:89]: Read metadata from `fb902b70-00dc-437c-9104-88c70e3fef82.converted_1648972170144`
+2022-05-04 10:17:52,520 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:52,549 [INFO ] [studio.webui.api.LibraryController] [LibraryController.java:47]: Library packs scanned in 1517ms
+2022-05-04 10:17:53,588 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: f1fa802d-558d-44d5-89c6-d6de0c8a4e37
+2022-05-04 10:17:53,590 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:53,736 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: d489f67b-0e51-4669-b1e1-1555f3c18541
+2022-05-04 10:17:53,738 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:53,797 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 74e59c16-6a28-45ce-9906-fca8fd69f23c
+2022-05-04 10:17:53,799 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:53,938 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 104e310b-6d9d-4005-9960-5cc021e46155
+2022-05-04 10:17:53,940 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:54,069 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 422fb92b-8026-4e74-b500-0b03fba79e1d
+2022-05-04 10:17:54,071 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:54,225 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: ffb867e6-92ca-434e-be73-ff1c9789f148
+2022-05-04 10:17:54,228 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:54,329 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 3ade5403-0625-4fff-a22b-9025ac3678d9
+2022-05-04 10:17:54,332 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:54,430 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: afd29d56-1dc6-475b-94b1-6ed67114305d
+2022-05-04 10:17:54,432 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:54,569 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: bb51319e-d151-4c2b-be4a-2f7a3a4ae543
+2022-05-04 10:17:54,571 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:54,630 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 78ac7aea-cd3a-4b37-add4-697f61b32be1
+2022-05-04 10:17:54,632 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:54,754 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: d56a4975-417e-4d04-aeb3-21254058b612
+2022-05-04 10:17:54,756 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:54,882 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: e1b35776-064d-4201-80c9-0bf6dec391d0
+2022-05-04 10:17:54,885 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:55,047 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 330c6233-96e1-479f-8719-96041e962c9b
+2022-05-04 10:17:55,051 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 3
+2022-05-04 10:17:55,181 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: c27e43ce-6161-4659-bc54-7099dfc62d45
+2022-05-04 10:17:55,183 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:55,288 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 77202e32-ffeb-4408-b6c7-8e8069b6a713
+2022-05-04 10:17:55,291 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:56,257 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 65f473d0-4d7f-4679-a25a-84cb0598a73a
+2022-05-04 10:17:56,259 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:56,895 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 9fd6e3f6-9dd5-4ef4-bb96-100145753ae0
+2022-05-04 10:17:56,903 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:57,171 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: ab80912f-aa55-4d83-970a-d87844db0ed2
+2022-05-04 10:17:57,174 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 2
+2022-05-04 10:17:57,234 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 03933ba4-4fbf-475f-9ecc-35efb4d11dc9
+2022-05-04 10:17:57,236 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:57,339 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: a1bd13a1-6694-4435-8e5d-40d655c57136
+2022-05-04 10:17:57,341 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:57,419 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 9c836c24-34c4-4cc1-b9e6-d8646c8d9cf1
+2022-05-04 10:17:57,421 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 0
+2022-05-04 10:17:57,525 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 1076a5fd-2111-4cbc-ad9f-efc18d860336
+2022-05-04 10:17:57,527 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 0
+2022-05-04 10:17:57,632 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: be8949f6-0d85-4f54-8284-19a1bdaed36a
+2022-05-04 10:17:57,635 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 0
+2022-05-04 10:17:57,744 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 6450ff5b-4cb1-4748-a847-5faba29be557
+2022-05-04 10:17:57,747 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:58,062 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 59a710e9-2f7a-4d0c-ab2d-47e8dd2e29b7
+2022-05-04 10:17:58,065 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:58,193 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: e8cee40d-bdfb-4fb6-9275-c17b6867d1c7
+2022-05-04 10:17:58,195 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:58,325 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: f57d70d2-d397-45e8-a0a8-3907924f89fe
+2022-05-04 10:17:58,328 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 0
+2022-05-04 10:17:58,402 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 358f544c-59d6-493e-8c6e-1fe9bb5ef825
+2022-05-04 10:17:58,404 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 0
+2022-05-04 10:17:58,482 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: e07c3196-e26a-41dc-93e6-a6b45cf5cfbb
+2022-05-04 10:17:58,485 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 1
+2022-05-04 10:17:58,648 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:187]: Pack UUID: 22edd8d2-a599-4eec-aeae-3d6a40be0fa7
+2022-05-04 10:17:58,652 [DEBUG] [studio.driver.fs.FsStoryTellerAsyncDriver] [FsStoryTellerAsyncDriver.java:200]: Pack version: 2
